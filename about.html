@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"  rel="stylesheet" />
+
+    <title>ABOUT US</title>
+    </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js" integrity="sha384-3LK/3kTpDE/Pkp8gTNp2gR/2gOiwQ6QaO7Td0zV76UFJVhqLl4Vl3KL1We6q6wR9" crossorigin="anonymous"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css"  rel="stylesheet" />
+
+    <style>
+        section {
+  padding: 20px 20px 0 20px;
+  position: fixed;
+  top: 0;
+  display: grid;  
+  grid-gap:5px;
+  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-areas: 
+   "nt mn mn sb . . . "; 
+  background-color: var(--primary);
+  width: 100%;
+  margin-bottom: 0px;  
+  color: aliceblue;
+}
+body{
+  background-color: black;
+  background-image: url('https://user-images.githubusercontent.com/33485020/108069438-5ee79d80-7089-11eb-8264-08fdda7e0d11.jpg');
+
+}
+.netflixLogo {
+  grid-area: nt;
+  object-fit: cover;
+  width: 100px;
+  max-height: 100%;
+  
+  padding-left: 30px;
+  padding-top: 0px;  
+}
+
+.netflixLogo img {  
+  height: 35px;     
+}
+
+#logo {
+  color: #E50914;  
+  margin: 0; 
+  padding: 0; 
+}
+
+
+.main-nav {
+  grid-area: mn;
+  padding: 0 30px 0 20px;
+}
+
+.main-nav a {
+  color: var(--light);
+  text-decoration: none;
+  margin: 5px;  
+}
+
+.main-nav a:hover {
+  color: var(--dark);
+}
+
+
+.container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 20px;
+        }
+
+        /* CSS styles for card */
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .card h3 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            color: #555;
+            line-height: 1.6;
+        }
+        .container{
+          margin-top: 100px;
+        }
+    </style>
+
+<body>
+   <section>
+       
+        <div class="netflixLogo">
+          <a id="logo" href="#home"><img src="https://github.com/carlosavilae/Netflix-Clone/blob/master/img/logo.PNG?raw=true" alt="Logo Image"></a>
+        </div>      
+        <nav class="main-nav">                
+          <a href="./index.html">Home</a>
+          <a href="./about.html">About Us</a>
+          <a href="./contact.html">Contact Us</a>
+          <!-- <a href="./Register.html">Register</a> -->
+          <a href="./Login.html">Login Now</a>
+
+         
+               
+        </nav>
+             
+    </section>
+
+    <div class="container">
+      <!-- Card 1 -->
+      <div class="card">
+          <img src="https://i.pinimg.com/736x/9d/12/4e/9d124e806ee5f22caff14aab231317a1.jpg" alt="Team Member 1">
+          <h3>VIVEK YADAV</h3>
+          <p>Vivek is the main developer behind this concept and idea with an experience of over 2 years in wed development.</p>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card">
+          <img src="https://tse2.mm.bing.net/th?id=OIP.oIPdFTvqPT8xAexehZNZ4gAAAA&pid=Api&P=0&h=180" alt="Team Member 2">
+          <h3>KARAN</h3>
+          <p>Karan The Backend operator manage the website  from server rush and data encryption with experience over 1 years under microsoft. </p>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card">
+          <img src="https://tse3.mm.bing.net/th?id=OIP.4o1M21LZ6w58G_3OEBUpgwHaHa&pid=Api&P=0&h=180" alt="Team Member 3">
+          <h3>MOHIT</h3>
+          <p>Mohit is our CTO and is an expert in technology and innovation. He leads our technical team with dedication and vision.</p>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaBv6kIXoLkt91f-5d8flBB8OlVtShsUc-PQ&s" alt="Team Member 4">
+          <h3>KAVYA</h3>
+          <p>Kavya is our CMO and handles all things marketing. he is known for her creativity and ability to drive successful campaigns.</p>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTa0jdVrBOkCKo_BKr-yA4eYpsrIdYVSHNwsQ&s" alt="Team Member 5">
+          <h3>KALPANA</h3>
+          <p>Kalpana is our CFO and oversees the financial health of the company. Her expertise in finance and strategy is unparalleled  and she have a back in cse subject math.</p>
+      </div>
+  </div>
+</body>
+</html>
